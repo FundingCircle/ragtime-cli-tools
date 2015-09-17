@@ -3,12 +3,13 @@
    [clojure.edn :as edn]
    [clojure.java.jdbc :refer [with-db-connection with-db-transaction]]
    [ragtime.jdbc :as jdbc]
-   [ragtime.repl :as repl])
-  (:import [java.sql SQLException]))
+   [ragtime.repl :as repl]))
 
 (defn jdbc-spec [env]
   {:dbtype      (env :db-type)
    :dbname      (env :db-name)
+   :username    (env :db-username)
+   :password    (env :db-password)
    :host        (env :db-host)
    :port        (edn/read-string (env :db-port))})
 
