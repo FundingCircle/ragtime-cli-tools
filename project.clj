@@ -1,4 +1,4 @@
-(defproject com.fundingcircle/ragtime-cli-tools "1.0.0"
+(defproject ragtime-cli-tools "1.0.0"
   :description "Apply ragtime migrations"
   :url "http://github.com/fundingcircle/ragtime-cli-tools"
   :license {:name "Eclipse Public License"

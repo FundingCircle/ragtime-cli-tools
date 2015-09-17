@@ -4,7 +4,7 @@ A small library to apply database migrations using the ragtime library
 
 ## Installation
 
-`[com.fundingcircle/ragtime-cli-tools "1.0.0"]`
+`[ragtime-cli-tools "1.0.0"]`
 
 ## Usage
 
